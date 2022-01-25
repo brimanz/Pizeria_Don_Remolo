@@ -1,0 +1,32 @@
+/*
+0. reset.
+1. generic styles.
+2. banner.
+*/
+
+/*0. reset*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*1. generic styles*/
+body{
+	background-color: #ffffff;
+}
+
+
+
+/*2. banner*/
+#banner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 14%
+}
+
+#banner div img{
+	height: 300px;
+	width: 300px;
+}
