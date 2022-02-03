@@ -13,7 +13,7 @@
 
 /*1. generic styles*/
 body{
-	background-color: #ffffff;
+	background-color: #FDB99B;
 	font-family: sans-serif;
 }
 
@@ -23,6 +23,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin-top: 30px;
 }
 #main div{
 	display: flex;
@@ -37,6 +38,12 @@ body{
 	letter-spacing: 1.3px;
 	color: #BA8B02;
 	text-shadow: 1px 1px 1px #D7DDE8;
+}
+#main .img-logo{
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	margin: 40px;
 }
 #main form{
 	display: flex;

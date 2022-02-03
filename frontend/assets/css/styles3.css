@@ -1,0 +1,46 @@
+/*
+0. reset.
+1. generic styles.
+2. navigation.
+*/
+
+/*0. reset*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*generic styles*/
+body{
+	background-color: #FDB99B;
+}
+
+/*2. navigation*/
+.navigation{
+	position: fixed;
+	bottom: 0;
+	height: 80px;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+.navigation ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: inline-block;
+	list-style: none;
+}
+.navigation ul li{
+	padding: 20px;
+	font-size: 52px;
+	margin-bottom: 20px;
+	margin-right: 40px;
+}
+.navigation ul li a{
+	text-decoration: none;
+	color: #6D6027;
+}
+.navigation ul li a:hover{
+	color: #F2C94C;
+}
